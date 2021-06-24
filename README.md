@@ -3,12 +3,12 @@
 Bot que se cadastra automaticamente no site de vacinas usando o modulo puppeteer do javascript.
 
 # Requisitos
-> puppeeter
+> puppeteer
 
 ## Instalação de requisitos
 
 ```bash
-> npm i puppeeter
+> npm i puppeteer
 ```
 
 ## Utilização
