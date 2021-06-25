@@ -1,0 +1,22 @@
+{
+  "name": "cadastrovacina",
+  "version": "1.0.0",
+  "description": "Bot que se cadastra automaticamente no site de vacinas usando o modulo puppeteer do javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kauefranca/CadastroVacina.git"
+  },
+  "author": "Kaue França",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kauefranca/CadastroVacina/issues"
+  },
+  "homepage": "https://github.com/Kauefranca/CadastroVacina#readme",
+  "dependencies": {
+    "puppeteer": "^10.0.0"
+  }
+}

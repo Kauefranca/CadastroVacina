@@ -3,12 +3,14 @@
 Bot que se cadastra automaticamente no site de vacinas usando o modulo puppeteer do javascript.
 
 # Requisitos
-> puppeteer
+> git
+> nodejs and npm
 
 ## Instalação de requisitos
 
 ```bash
-> npm i puppeteer
+> git clone https://github.com/Kauefranca/CadastroVacina
+> cd CadastroVacina
 ```
 
 ## Utilização
