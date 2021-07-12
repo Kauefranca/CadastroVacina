@@ -14,7 +14,7 @@ const credentials = {
 ;(async () => {
     const browser = await puppeteer.launch({ defaultViewport: null, headless: false});
     const page = await browser.newPage();
-    await page.goto('https://www7.marilia.sp.gov.br/agendamentocovid');
+    await page.goto('https://www7.marilia.sp.gov.br/agendacovid');
     //await page.goto('file:///home/kaue/Projetos/30-Puppeeter/index.html');
     while (true) {
         try{
