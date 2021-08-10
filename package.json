@@ -1,8 +1,8 @@
 {
   "name": "cadastrovacina",
-  "version": "1.0.0",
-  "description": "Bot que se cadastra automaticamente no site de vacinas usando o modulo puppeteer do javascript.",
-  "main": "index.js",
+  "version": "1.1.0",
+  "description": "Script para se cadastrar para vacina.",
+  "main": "fetch.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
