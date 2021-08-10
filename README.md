@@ -36,7 +36,6 @@ Recomendado se estiver utilizando o termux ou qualquer plataforma não suportada
 
 Mude os dados do objeto credentials em fetch.js e depois execute o seguinte comando:
 
-Para rodar o script execute:
 ```bash
 > node fetch.js
 ```
