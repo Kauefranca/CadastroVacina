@@ -18,7 +18,7 @@ Bot que se cadastra automaticamente no site de vacinas usando o modulo puppeteer
 
 Atualmente existe 2 estilos diferentes para fazer o cadastro, com o puppeteer(headfull) ou com o fetch(axios).
 
-# Puppeteer (mais lenta)
+### Puppeteer (mais lenta)
 
 Recomendado caso esteja usando um computador e queira ver a página final do cadastro direto do site oficial.
 
@@ -30,7 +30,7 @@ Mude os dados do objeto credentials em puppeteer.js e depois execute o seguinte 
 
 Agora é só aguardar até que o cadastro seja liberado :D
 
-# Fetch (mais rápida)
+### Fetch (mais rápida)
 
 Recomendado se estiver utilizando o termux ou qualquer plataforma não suportada pelo puppeteer ou se apenas deseja fazer multiplos cadastros.
 
