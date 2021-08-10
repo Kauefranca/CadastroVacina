@@ -1,21 +1,20 @@
 const puppeteer = require('puppeteer');
 
 const credentials = { 
-    name: 'Regiane Célia da Silva França',
-    bornDate: '15101979',
-    cpf: '27639865875',
-    tel: '14998031616',
-    address: 'Ernesto Javurek, 25',
-    email: 'kauefranca04@gmail.com',
-    hour: '10:00'
+    name: 'Kauê França',
+    bornDate: '00/00/0000',
+    cpf: '00000000000',
+    tel: '(14) 99000-000',
+    address: 'Rua xx, N° xx',
+    email: 'email@gmail.com',
+    hour: '15:00'
 };
 
 
 ;(async () => {
     const browser = await puppeteer.launch({ defaultViewport: null, headless: false});
     const page = await browser.newPage();
-    await page.goto('https://www7.marilia.sp.gov.br/agendamentocovid');
-    //await page.goto('file:///home/kaue/Projetos/30-Puppeeter/index.html');
+    await page.goto('https://www7.marilia.sp.gov.br/ag1/');
     while (true) {
         try{
             await page.waitForSelector('input[name=name]', { timeout: 300 })
@@ -40,7 +39,8 @@ const credentials = {
     await page.keyboard.type(credentials.email);
     await page.select('select[name=hour]', credentials.hour)
 
-   //await page.click('button#submit')
+    await page.waitForSelector('input[name=name]', { timeout: 30000 })
+    await page.click('button#submit')
     const endTime = new Date().getTime()
     console.log(`Cadastro concluido em: ${(endTime - startTime) / 1000} segundos.`)    
 //   await browser.close();
